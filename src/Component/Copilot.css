@@ -1,0 +1,120 @@
+.copilot-panel {
+    width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to top, #f8f9ff, #ffffff);
+  font-family: Arial, sans-serif;
+  border-left: 1px solid #e5e7eb;
+  padding: 0 20px;
+}
+
+.copilot-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tab {
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #666;
+}
+
+.tab.active {
+  color: #4f46e5;
+  border-bottom: 2px solid #4f46e5;
+}
+
+.tab-icon {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.copilot-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* This centers it vertically */
+  position: relative;
+}
+
+
+.copilot-center {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.copilot-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.copilot-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.copilot-subtitle {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+
+ .copilot-suggestion {
+  margin: 12px 0;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.copilot-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  padding: 6px 12px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+
+
+.suggested-label {
+  font-weight: bold;
+  color: #4b5563;
+}
+
+.suggested-chip {
+  background-color: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 12px;
+  color: #111827;
+}
+
+
+
+.copilot-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.copilot-input button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #4f46e5;
+}
+
